@@ -205,6 +205,14 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+         
+         <distributionManagement>
+                  <repository>
+                           <id>deployment</id>
+                           <name>Internal releases</name>
+                           <url>http://52.207.221.46:8081/repository/jenkins/</url>
+                  </repository>
+         </distributionManagement>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
